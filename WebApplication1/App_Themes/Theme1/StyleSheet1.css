@@ -1,0 +1,101 @@
+﻿body {
+    margin:0;
+    background-color:#000;
+    font-family: 'Oswald' cursive sans-serif;
+    color:#fff;
+}
+
+div {
+    display:block;
+}
+
+#page {
+    position:relative;
+    display:table;
+    margin:20px auto;
+    background-color:#403c3b;
+}
+
+#headerImage {
+    background-image:url("/kinglogo.png");
+    /*background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    position:relative;
+    top:20px;
+    
+    text-align:center;*/
+}
+
+#testHeader {
+    background-image:url("/kinglogo.png");
+    background-position:center center;
+    width:200px;
+}
+
+#header {
+    position:relative;
+    text-align:center;
+    font-size:200%;
+    color:#fff;
+}
+
+a {
+    color:#1ce9ef;
+}
+
+tr:nth-child(2n) {
+    background-color:#d7666b;
+    
+}
+
+tr:nth-child(2n + 1) {
+    background-color:#ec8b68;
+    
+}
+
+tr:nth-child(2n) th {
+    border:solid;
+    border-width:10px;
+    border-color:#d7666b;
+}
+
+#tableHeader {
+    background-color:#6cc0ac;
+}
+
+table {
+    position:relative;
+    display:table;
+    margin:0 50px;
+    top:30px;
+    font-size:20px;
+}
+
+#addNew {
+    position:relative;
+    display:table;
+    margin:0 auto;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.centerdiv {
+    position:relative;
+    display:table;
+    margin:0 auto;
+}
+
+label {
+    white-space:nowrap;
+}
+
+#btnSummit {
+    position:relative;
+    left:20%;
+}
+
+#btnCancel {
+    position:relative;
+    left:40%;
+}
