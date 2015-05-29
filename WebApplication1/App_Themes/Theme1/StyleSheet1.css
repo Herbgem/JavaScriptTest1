@@ -18,13 +18,11 @@ div {
 
 #headerImage {
     background-image:url("/kinglogo.png");
-    /*background-size:100% 100%;
     background-repeat:no-repeat;
-    background-position:center;
+    background-position:center center;
     position:relative;
-    top:20px;
+    height:90px;
     
-    text-align:center;*/
 }
 
 #testHeader {
@@ -97,5 +95,4 @@ label {
 
 #btnCancel {
     position:relative;
-    left:40%;
-}
+    left:40%;
